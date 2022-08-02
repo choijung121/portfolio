@@ -1,9 +1,10 @@
 .intro-me-title {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     font-size: 5em; 
-    margin-top: 5vh;
+    margin-top: 10%;
+    margin-left: 15%
 }
 
 .intro-me-summary {
@@ -11,5 +12,7 @@
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    margin: 1%;
+    margin-top: 1%;
+    margin-left: 15%; 
+    margin-right: 15%; 
 }
