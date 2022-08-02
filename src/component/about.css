@@ -1,7 +1,15 @@
-.intro-me {
+.intro-me-title {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 5em; 
     margin-top: 5vh;
+}
+
+.intro-me-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: 1%;
 }
