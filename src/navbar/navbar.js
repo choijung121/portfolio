@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar(){
     return(
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg sticky-top bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">James Codes</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

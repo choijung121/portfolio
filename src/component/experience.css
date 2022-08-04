@@ -1,0 +1,19 @@
+.experience-title {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: 3em; 
+    padding-top: 10%;
+    margin-top: 15%;
+    margin-left: 15%
+}
+
+.intro-me-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-left: 15%; 
+    margin-right: 15%; 
+}

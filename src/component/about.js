@@ -4,11 +4,16 @@ function About(){
     return(
         <div>
             <h1 className="intro-me-title">Hello there!</h1>
-            <p1 className="intro-me-summary">My name is Jung Choi.        
-            <br></br>
-            I work and practice with React.JS to become a better developer and engineer. 
-            There are so many things to learn.
-            </p1>
+            <div className='intro-me-summary'>
+                <p1 className="intro-me-text">My name is Jung Choi.        
+                I am on a journey to become a software engineer. 
+                </p1>
+                <p1 className='intro-me-text'> 
+                A little bit more about my background. 
+                I have attended Brigham Young University pursuing a degree in Bioinformatics or Computational Biology.
+                </p1>
+            </div>
+            
         </div>
     );
 };
