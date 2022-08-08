@@ -11,10 +11,10 @@ function Navbar(){
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                            <a class="nav-link active" aria-current="page" href="#aboutMe">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Experience</a>
+                            <a class="nav-link active" href="#experience">Experience</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Project</a>

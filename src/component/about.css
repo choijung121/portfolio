@@ -10,13 +10,24 @@
 
 .intro-me-summary {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1%;
+    align-items: left;
+    justify-content: left;
     margin-left: 15%; 
-    margin-right: 15%; 
+    margin-right: 50%; 
 }
 
 .intro-me-text {
-    font-size: 20px;
+    font-size: 17px;
+}
+
+.intro-list {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.icons {
+    padding: 2%; 
+    margin: 2%; 
 }
