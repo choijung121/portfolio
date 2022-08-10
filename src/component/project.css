@@ -1,0 +1,10 @@
+.project-title{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: 2em;
+    margin-left: 15%; 
+    margin-right: 15%; 
+    margin-top: 15%;
+    margin-left: 15%
+}

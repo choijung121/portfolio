@@ -3,32 +3,29 @@
     align-items: left;
     justify-content: left;
     font-size: 2em; 
-    /* padding-top: 10%; */
     margin-top: 15%;
-    margin-left: 15%
+    margin-left: 20%;
+    padding-top: 10%;
 }
 
-.intro-me-summary {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2em;
-    margin-top: 1%;
-    margin-left: 15%; 
-    margin-right: 15%; 
-}
-
-.companyName {
-    padding-left: 15%;
+.experience-intro{
+    margin-left: 20%;
+    margin-right: 20%; 
+    font-size: 17px;
 }
 
 .bulletpoints {
     padding-left: 18%;
 }
 
-/* .columnTab {
-    align-items: center;
-    
-    margin-left: 15%; 
-    margin-right: 25%; 
-} */
+.timeline {
+    margin-left: 20%;
+}
+
+.companyName {
+    font-size: 17px;
+}
+
+.linkStyle{
+    font-size: 17px;
+}

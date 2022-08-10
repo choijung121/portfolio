@@ -3,8 +3,7 @@
     align-items: left;
     justify-content: left;
     padding-top: 10%;
-    margin-top: 15%;
-    margin-left: 15%; 
+    margin-left: 20%; 
     font-size: 2em;
 }
 
@@ -12,12 +11,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1005; 
 }
 
 .intro-me-text {
+    display: flex;
+    align-items: left;
+    justify-content: left;
     font-size: 17px;
-    width: 100%; 
+    margin-left: 40%;
+    margin-right: 5%;
+    
 }
 
 .intro-icons {
@@ -25,18 +28,26 @@
     align-items: left;
     justify-content: left;
     list-style: none;
-    margin-left: 11%;
+    margin-left: 17%;
 }
 
 .icons {
-    padding: 0.5%;
+    padding: 1%;
     margin: 0.5%; 
 }
 
-.intro-me-image{
+.container-image {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-me-image{
+    /* display: flex; */
+    align-items: center;
     float: right; 
-    margin-right: 15%;
+    margin-right: 40%;
+    margin-left: 5%;
 }
 
 img{
@@ -44,5 +55,5 @@ img{
     float: right;
     border-radius: 50%;
     display: block;
-    margin-left: auto;
+    
 }
