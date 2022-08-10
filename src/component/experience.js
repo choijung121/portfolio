@@ -16,20 +16,21 @@ function Experience(){
                             <a className='linkStyle' href="https://www.getredlist.com/">Redlist</a>{" "}- Software QA Intern
                         </h1>
                         <ul>
-                            <li>hi</li>
+                            <li className='jobDescription'>Performed manual and regression testing for Android app and Web app</li>
+                            <li className='jobDescription'>Used Appium, WebdriverIO, and Cucumber in JavaScript to create automation scripts</li>
+                            <li className='jobDescription'>Tracked and reported bugs in Microsoft Azure</li>
+                            <li className='jobDescription'>Collaborated with Developers for test requirement clarification</li>
                         </ul>
                     </Event>
                     <Event interval="Sept 2019 – Dec 2019" iconFill="#cccccc" iconOutline={null} lineColor="#cccccc">
                         <h1 className='companyName'>
                             <a className='linkStyle' href="https://www.nuskin.com/en_US/home.html">NuSkin</a>{" "}- Customer Service Representative - Korean
                         </h1>
-                        <p></p>
                     </Event>
                     <Event interval="Jul 2017 – Aug 2019" iconFill="#cccccc" iconOutline={null} lineColor="#cccccc">
                         <h1 className='companyName'>
                             <a className='linkStyle' href="https://provo.mtc.byu.edu/">Missionary Training Center</a>{" "}- Interpreter Trainer - Korean
                         </h1>
-                        <p></p>
                     </Event>
                 </Timeline>
             </div>
