@@ -17,9 +17,6 @@ function Experience(){
                         </h1>
                         <ul>
                             <li className='jobDescription'>
-                                {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-                                    <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-                                </svg> */}
                                 Performed manual and regression testing for Android app and Web app
                             </li>
                             <li className='jobDescription'>Used Appium, WebdriverIO, and Cucumber in JavaScript to create automation scripts</li>
@@ -50,7 +47,7 @@ function Experience(){
             <br></br>
             <p className='experience-intro'>Here is my resume below to view my works descriptions in detail.</p>
             <div className="resume">
-                <a href="public/Jung_Choi_Resume.pdf" class="btn btn-outline-primary" role="button" data-bs-toggle="button" aria-pressed="true">Resume</a>
+                <a href="../Jung_Choi_Resume.pdf" className="btn btn-outline-primary" role="button" data-bs-toggle="button" aria-pressed="true">Resume</a>
             </div>
         </div>
     );

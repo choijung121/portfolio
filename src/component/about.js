@@ -8,7 +8,7 @@ function About(){
             </div>
             <div className='container-intro'>
                 <div className='intro-me-summary'>
-                    <p1 className="intro-me-text">My name is Jung (or call me James!)  
+                    <p className="intro-me-text">My name is Jung (or call me James!)  
                     <br></br>      
                     <br></br>
                     I am on a journey to become a self-taught software engineer. My interest in Web Development and Software 
@@ -21,11 +21,11 @@ function About(){
                     <br></br>
                     <br></br>
                     Here are some of the skills I've been working with: 
-                    </p1>
+                    </p>
                 </div>
             <div className='container-image'>
                 <div className='intro-me-image'>
-                    <img src="./IMG_0180.jpeg"></img>
+                    <img src="../IMG_0180.jpeg"></img>
                 </div> 
             </div>
             </div>
