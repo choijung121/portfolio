@@ -18,18 +18,15 @@
     padding-left: 18%;
 }
 
-.timeline {
+.timeline, .resume{
     margin-left: 20%;
 }
 
-.companyName {
+.companyName, .linkStyle {
     font-size: 17px;
 }
 
-.linkStyle{
-    font-size: 17px;
-}
 
 .jobDescription {
-    margin-right: 15%;
+    margin-right: 30%;
 }

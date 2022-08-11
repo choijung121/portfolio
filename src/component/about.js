@@ -35,7 +35,8 @@ function About(){
                         <li className="icons"><a><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/></a></li>
                         <li className="icons"><a><img src="https://img.icons8.com/color/48/000000/css3.png"/></a></li>
                         <li className="icons"><a><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/></a></li>
-                        <li className="icons"><a><img src="https://img.icons8.com/color/48/000000/react-native.png"/></a></li>                    </ul>
+                        <li className="icons"><a><img src="https://img.icons8.com/color/48/000000/react-native.png"/></a></li>                    
+                    </ul>
                 </div>
         </div>
     );
