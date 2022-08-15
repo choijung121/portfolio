@@ -18,8 +18,9 @@
     align-items: left;
     justify-content: left;
     font-size: 17px;
-    margin-left: 40%;
-    margin-right: 5%;
+    margin-left: 20%;
+    width: 120%;
+    /* margin-right: 10%; */
     
 }
 
@@ -48,12 +49,13 @@
     float: right; 
     margin-right: 40%;
     margin-left: 5%;
+    margin-bottom: 20%;
 }
 
 img{
-    width: 100%;
+    width: 90%;
     float: right;
     border-radius: 50%;
-    display: block;
+    /* display: block; */
     
 }

@@ -1,0 +1,9 @@
+.card {
+    width: 18rem; 
+    margin-left: 20%; 
+}
+
+.card-img-top{
+    border: black;
+    border-color: black;
+}
