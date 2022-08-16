@@ -1,13 +1,14 @@
 .project-title{
-    display: flex;
+    display: block;
     align-items: left;
     justify-content: left;
     font-size: 2em;
     padding-top: 10%; 
-    margin-left: 20%
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-bottom: 5%;
 }
 
-.card {
-    width: 18rem; 
-    margin-left: 20%; 
+.card-block{
+    margin-top: 5%;
 }

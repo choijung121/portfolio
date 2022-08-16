@@ -1,4 +1,5 @@
 import { Timeline, Event } from 'react-trivial-timeline';
+import myResume from "../images/Jung_Choi_Resume.pdf"
 
 import './experience.css'
 
@@ -47,7 +48,7 @@ function Experience(){
             <br></br>
             <p className='experience-intro'>Here is my resume below to view my works descriptions in detail.</p>
             <div className="resume">
-                <a href="../Jung_Choi_Resume.pdf" className="btn btn-outline-primary" role="button" data-bs-toggle="button" aria-pressed="true">Resume</a>
+                <a href={myResume} class="btn btn-outline-primary" role="button" data-bs-toggle="button" aria-pressed="true">Resume</a>
             </div>
         </div>
     );

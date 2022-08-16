@@ -1,9 +1,33 @@
 .card {
-    width: 18rem; 
-    margin-left: 20%; 
+    width: 15rem; 
+    transition: 250ms;
+    text-decoration: none;
 }
 
-.card-img-top{
-    border: black;
-    border-color: black;
+.card-title{
+    text-decoration: none;
+    color: black; 
+    margin-top: 10px;
+}
+
+.card-text{
+    font-size: 17px;
+    text-decoration: none;
+    color: black; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.icon-link{
+    padding-right: 10px;
+}
+
+.bounce {
+    transition: 250ms;
+}
+
+.card:hover {
+    transform: translateY(-3px);
 }

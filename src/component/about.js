@@ -1,4 +1,5 @@
-import './about.css'
+import './about.css';
+import myImage from "../images/IMG_0180.jpeg";
 
 function About(){
     return(
@@ -23,7 +24,7 @@ function About(){
                 </p>
             <div className='container-image'>
                 <div className='intro-me-image'>
-                    <img src="../IMG_0180.jpeg"></img>
+                    <img className='myimage' src={myImage}></img>
                 </div> 
             </div>
             </div>

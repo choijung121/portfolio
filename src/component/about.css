@@ -55,7 +55,8 @@
 img{
     width: 90%;
     float: right;
+}
+
+.myimage {
     border-radius: 50%;
-    /* display: block; */
-    
 }
