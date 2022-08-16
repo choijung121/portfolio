@@ -1,0 +1,47 @@
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15%;
+    /* margin-left: 20%;  */
+    font-size: 2em;
+}
+
+.contact-section{
+    margin-bottom: 20%; 
+}
+
+.contact-paragraph{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-list{
+    margin-top: 25px;
+}
+
+.email-button, .linkedin-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px; 
+    padding: 5px;
+}
+
+.btn {
+    --bs-btn-padding-y: 10px; 
+    --bs-btn-padding-x: 40px; 
+    --bs-btn-font-size: 17px;
+}

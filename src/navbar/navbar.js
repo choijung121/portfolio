@@ -20,11 +20,11 @@ function Navbar(){
                             <a class="nav-link active" href="#project">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contact</a>
+                            <a class="nav-link active" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" className="icon-nav">
+                {/* <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" className="icon-nav">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="https://github.com/choijung121?tab=repositories">
@@ -41,7 +41,7 @@ function Navbar(){
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </nav>
     );

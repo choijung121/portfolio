@@ -16,6 +16,11 @@
     color: black; 
 }
 
+.card-img-top{
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 10px;
+}
+
 a{
     text-decoration: none;
 }
@@ -29,5 +34,5 @@ a{
 }
 
 .card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-4px);
 }

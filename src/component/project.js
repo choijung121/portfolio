@@ -5,8 +5,8 @@ import './project.css'
 
 function Project(){
     return(
-        <div class="project-title" id="project">
-            Projects I've worked on
+        <div id="project">
+            <h1 class="project-title">Projects I've worked on</h1>
             <div className="card-block">
                 <Card/>
             </div>
