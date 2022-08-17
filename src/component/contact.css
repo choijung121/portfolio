@@ -32,16 +32,16 @@ a{
     margin-top: 25px;
 }
 
-.email-button, .linkedin-button{
+.email-button, .linkedin-button, .github-button{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px; 
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .btn {
     --bs-btn-padding-y: 10px; 
-    --bs-btn-padding-x: 40px; 
+    --bs-btn-padding-x: 35px; 
     --bs-btn-font-size: 17px;
 }

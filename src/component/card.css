@@ -17,7 +17,6 @@
 }
 
 .card-img-top{
-    /* border-bottom: 1px solid black; */
     margin-bottom: 10px;
 }
 
@@ -35,4 +34,20 @@ a{
 
 .card:hover {
     transform: translateY(-4px);
+}
+
+.progress-button{
+    position: absolute;
+    top: 6%;
+    right: 49%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
 }
