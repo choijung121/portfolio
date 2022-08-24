@@ -9,7 +9,7 @@ function Card(){
             <div class="col-sm-3">
                 <div class="card text-bg-light mb-3">
                     <a href="https://github.com/choijung121/portfolio" className="card-text">
-                        <img src={portfolio} class="card-img-top" alt="Image example of my portfolio website"/>
+                        <img src={portfolio} class="card-img-top" alt="Example of my portfolio website"/>
                         <div class="card-body">
                             <h5 class="card-title">Portfolio</h5>
                             <p class="card-text">This project was built with React.JS and Bootstrap to show my portfolio</p>
@@ -31,7 +31,7 @@ function Card(){
             <div class="col-sm-3">
                 <div class="card text-bg-light mb-3">
                     <a href="https://github.com/choijung121/Expense-App/tree/main/learn-react" className="card-text">
-                        <img src={expenseApp} class="card-img-top" alt="Image example of Expense App"/>
+                        <img src={expenseApp} class="card-img-top" alt="Example of Expense App"/>
                         <div class="card-body">
                             <h5 class="card-title">Expense App</h5>
                             <p class="card-text">This is an expense app to keep track of your spendings on money</p>
