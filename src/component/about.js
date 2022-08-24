@@ -24,7 +24,7 @@ function About(){
                 </p>
             <div className='container-image'>
                 <div className='intro-me-image'>
-                    <img className='myimage' src={myImage}></img>
+                    <img className='myimage' src={myImage} alt="My profile image"></img>
                 </div> 
             </div>
             </div>
