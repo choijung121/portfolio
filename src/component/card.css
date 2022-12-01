@@ -1,3 +1,10 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1; 
+    justify-content: space-between;
+}
+
 .card {
     width: 15rem; 
     transition: 250ms;
