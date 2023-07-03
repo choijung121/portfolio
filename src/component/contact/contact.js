@@ -4,9 +4,6 @@ function Contact(){
     return(
         <div className='contact-section' id='contact'>
             <h1 className='contact-title'>Contact Me</h1>
-            <p1 className='contact-paragraph'>I'm currently open to opportunities. Please feel free to contact me and I will
-                do my best to get back to you as soon as possible!
-            </p1>
             <div className='button-list'>
                 <div className='email-button'>
                     <a href = "mailto: choijung121@gmail.com">

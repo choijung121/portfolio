@@ -1,5 +1,6 @@
 import React from "react"; 
-import Card from './card';
+// import Card from './card/card';
+import Card from '../../component/card/card'
 // import { Card } from 'react-bootstrap';
 import './project.css'
 

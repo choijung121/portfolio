@@ -1,0 +1,49 @@
+{
+    "intro": [
+        {
+            "id": 1, 
+            "welcome": "Hi, my name is Jung!", 
+            "paragraph1": "When I was wondering what I should do for my future career, my friend invited me to study computer science and start coding. Fast-forward to today, now I'm currently Software QA Engineer at NBC SportsNext/SportsEngine identifying and resolving bugs, accompanied by creating and maintaining automation tests.", 
+            "paragraph2": "I've had a great privilege to work with great engineers from all sorts of background and skills. I would have never thought that a simple invitation from my friend would lead me to be a part of this amazing \"Tech World.\"",
+            "linkNBC": "https://www.nbcsportsnext.com/", 
+            "linkSportNgin": "https://www.sportsengine.com/"
+        }
+    ],
+
+    "experiences": [
+        {
+            "id": 1,
+            "dates": "Jan 2023 - Present",
+            "companyName": "NBC SportsNext/SportsEngine @ NBCUniversal",
+            "companyLink": "https://www.sportsengine.com",
+            "jobTitle": "QA Engineer",
+            "jobDescription": "JavaScript, TypeScript, Cypress, Jira",
+            "skills": "JavaScript, TypeScript, Cypress, Jira"
+        },
+        {
+            "id": 2,    
+            "dates": "Nov 2020 - Jun 2022",
+            "companyName": "Redlist",
+            "companyLink": "https://www.getredlist.com/",
+            "jobTitle": "Software QA Intern",
+            "jobDescription": "JavaScript, TypeScript, Cypress, Jira",
+            "skills": "JavaScript, Appium, WebdriverIO, Cucumber, Microsoft Azure"
+        },
+        {
+            "id": 3,
+            "dates": "Sept 2019 – Dec 2019",
+            "companyName": "NuSkin",
+            "companyLink": "https://www.nuskin.com/en_US/home.html",
+            "jobDescription": "JavaScript, TypeScript, Cypress, Jira",
+            "jobTitle": "Customer Service Representative - Korean"
+        },
+        {
+            "id": 4,
+            "dates": "Jul 2017 – Aug 2019",
+            "companyName": "Missionary Training Center",
+            "companyLink": "https://provo.mtc.byu.edu/",
+            "jobDescription": "JavaScript, TypeScript, Cypress, Jira",
+            "jobTitle": "Interpreter Trainer - Korean"
+        }
+    ]
+}

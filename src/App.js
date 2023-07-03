@@ -1,19 +1,17 @@
+import React from 'react'; 
 import './App.css';
-import About from './component/about'
-import Experience from './component/experience';
-import Project from './component/project';
+import About from './component/about/about'
+import Experience from './component/experience/experience';
+import Project from './component/projects/project';
 import Navbar from './navbar/navbar';
-import Home from './component/home';
-import Footer from './component/footer'
+import Footer from './component/footer/footer'
+import Contact from './component/contact/contact';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Contact from './component/contact';
-
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <Home />
       <About/>
       <Experience/>
       <Project/>

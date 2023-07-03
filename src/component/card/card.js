@@ -1,12 +1,12 @@
 import React from "react"; 
-import portfolio from "../images/portfolio.png"
-import expenseApp from "../images/project-expenseapp.png"
-import weatherApp from "../images/weather.png"
-import stopwatch from "../images/stopwatch.png"
+import portfolio from "../../images/portfolio.png"
+import expenseApp from "../../images/project-expenseapp.png"
+import weatherApp from "../../images/weather.png"
+import stopwatch from "../../images/stopwatch.png"
 import './card.css'
 
-import Icon from "./icon/icon";
-import Link from "./icon/linkIcon"; 
+import Icon from "../icon/icon";
+import Link from "../icon/linkIcon"; 
 
 function Card(){
     const myStyle = {
