@@ -1,37 +1,39 @@
 import { Timeline, Event } from 'react-trivial-timeline';
-import { experiences } from "../../data.json";
+import dataExperience from "../../data.json";
 import myResume from "../../images/Jung_Choi_Resume.pdf";
 import './experience.css';
 
 function Experience(){
+    const data = dataExperience.dataExperience
+
     return(
         <div id="experience">
             <h1 className="experience-title">Places I've worked</h1>
             <div className='timeline'>
                 <Timeline lineColor="black">
-                    {experiences.map(experience => (
+                    {data.map(data => (
                         <Event 
-                            key={experience.id}
-                            dates={experience.dates}
+                            key={data.id}
+                            interval={data.dates}
                             iconFill="#cccccc"
                             iconOutline={null}
                             lineColor="#cccccc"
                         >
-                            <h2 className="companyName">
+                            <h2 className="companyName" key={data.id} dates={data.dates}>
                                 <a 
                                     className="linkStyle" 
-                                    href={experience.companyLink} 
+                                    href={data.companyLink} 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
-                                    title={experience.companyName}
+                                    title={data.companyName}
                                 >
-                                    {experience.companyName}
+                                    {data.companyName}
                                 </a>
                                 {' - '}
-                                {experience.jobTitle}
+                                {data.jobTitle}
                             </h2>
-                            {experience.jobDescription && (
-                                <p className="jobDescription">{experience.jobDescription}</p>
+                            {data.skills && (
+                                <p className="jobDescription">Skills: {data.skills}</p>
                             )}
                         </Event>
                     ))}

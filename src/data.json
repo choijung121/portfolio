@@ -10,7 +10,7 @@
         }
     ],
 
-    "experiences": [
+    "dataExperience": [
         {
             "id": 1,
             "dates": "Jan 2023 - Present",
@@ -34,7 +34,6 @@
             "dates": "Sept 2019 – Dec 2019",
             "companyName": "NuSkin",
             "companyLink": "https://www.nuskin.com/en_US/home.html",
-            "jobDescription": "JavaScript, TypeScript, Cypress, Jira",
             "jobTitle": "Customer Service Representative - Korean"
         },
         {
@@ -42,7 +41,6 @@
             "dates": "Jul 2017 – Aug 2019",
             "companyName": "Missionary Training Center",
             "companyLink": "https://provo.mtc.byu.edu/",
-            "jobDescription": "JavaScript, TypeScript, Cypress, Jira",
             "jobTitle": "Interpreter Trainer - Korean"
         }
     ]
