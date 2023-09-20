@@ -6,32 +6,33 @@
 }
 
 .card {
-    width: 15rem; 
+    margin: 0px; 
+    width: 20rem; 
     transition: 250ms;
     text-decoration: none;
 }
 
-.card-title{
+.card-title {
     text-decoration: none;
     color: black; 
     margin-top: 10px;
 }
 
-.card-text{
+.card-text {
     font-size: 17px;
     text-decoration: none;
     color: black; 
 }
 
-.card-img-top{
+.card-img-top {
     margin-bottom: 10px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.icon-link{
+.icon-link {
     padding-right: 10px;
 }
 
@@ -43,7 +44,7 @@ a{
     transform: translateY(-4px);
 }
 
-.progress-button{
+.progress-button {
     position: absolute;
     top: 6%;
     right: 49%;

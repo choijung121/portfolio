@@ -43,5 +43,40 @@
             "companyLink": "https://provo.mtc.byu.edu/",
             "jobTitle": "Interpreter Trainer - Korean"
         }
+    ], 
+
+    "projectData": [
+        {
+            "id": 1,
+            "title": "Portfolio",
+            "description": "This project was built with React.JS and Bootstrap to show my portfolio",
+            "link": "https://choijung.netlify.app/",
+            "githubLink": "https://github.com/choijung121/portfolio", 
+            "imagePath": "../images/portfolio.png"
+        }, 
+        {
+            "id": 2,
+            "title": "Stopwatch App",
+            "description": "Used React to create stopwatch",
+            "githubLink": "https://github.com/choijung121/stopwatch", 
+            "imagePath": "../../images/project-expenseapp.png"
+            
+        },
+        {
+            "id": 3,
+            "title": "Expense App",
+            "description": "This is an expense app to keep track of your spendings on money",
+            "githubLink": "https://github.com/choijung121/Expense-App/tree/main/learn-react", 
+            "imagePath": "../../images/weather.png"
+        }, 
+        {
+            "id": 4,
+            "title": "Weather App",
+            "description": "Simple weather app to get information on temperature and other informations",
+            "link": "https://reliable-panda-6559d7.netlify.app/",
+            "githubLink": "https://github.com/choijung121/weatherapp", 
+            "imagePath": "../../images/stopwatch.png"
+        }
+
     ]
 }

@@ -10,6 +10,9 @@
 }
 
 .card-block{
+    display: center;
+    align-items: center;
+    justify-content: center;
     margin-top: 5%;
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
