@@ -5,9 +5,9 @@
     justify-content: space-between;
 }
 
-.card {
-    margin: 0px; 
-    width: 20rem; 
+.cards {
+    height: 150px;
+    width: 100%; 
     transition: 250ms;
     text-decoration: none;
 }
@@ -16,6 +16,7 @@
     text-decoration: none;
     color: black; 
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .card-text {

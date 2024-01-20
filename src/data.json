@@ -52,7 +52,7 @@
             "description": "This project was built with React.JS and Bootstrap to show my portfolio",
             "link": "https://choijung.netlify.app/",
             "githubLink": "https://github.com/choijung121/portfolio", 
-            "imagePath": "../images/portfolio.png"
+            "imagePath": "../../images/portfolio.png"
         }, 
         {
             "id": 2,
