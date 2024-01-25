@@ -1,20 +1,13 @@
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    flex: auto; 
-    /* justify-content: space-between; */
-}
-
-.column {
-    margin: 5px; 
+    flex: 0 1; 
+    justify-content: space-between;
 }
 
 .cards {
     height: 100%;
     width: 100%; 
-    transition: 250ms;
     text-decoration: none;
-    border: solid #F8F9FA;
+    border: solid #e2e3e4;
     border-radius: 3%;
     margin: 10px; 
     padding: 10px; 
@@ -38,7 +31,7 @@
 
 .card-img-top {
     padding: 10px;
-    height: auto;
+    height: 100%;
     max-width: 100%;
 }
 

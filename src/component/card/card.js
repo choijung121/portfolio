@@ -7,9 +7,9 @@ import projectData from "../../data.json"
 
 function ProjectInfo({data}) {
     return (
-        <div className="row">
+        <div className="row gy-4">
             {data.projectData.map(data => (
-                <div className="column col-6">
+                <div className="col-md-6">
                     <div className="cards text-bg-light mb-3">
                         <div className="card-body">
                             <div key={data.id}>
