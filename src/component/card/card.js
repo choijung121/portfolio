@@ -1,9 +1,4 @@
 import React from "react"; 
-// import portfolio from "../../images/portfolio.png"
-// import expenseApp from "../../images/project-expenseapp.png"
-// import weatherApp from "../../images/weather.png"
-// import stopwatch from "../../images/stopwatch.png"
-// src/images/stopwatch.png
 import './card.css'
 
 import Icon from "../icon/icon";
@@ -14,14 +9,14 @@ function ProjectInfo({data}) {
     return (
         <div className="row">
             {data.projectData.map(data => (
-                <div className="col-6">
+                <div className="column col-6">
                     <div className="cards text-bg-light mb-3">
-                        <a href="https://github.com/choijung121/portfolio" className="card-text">
-                            {/* <img src={data.imagePath} class="card-img-top" /> */}
-                            <div className="card-body">
-                                <div key={data.id}>
-                                    <h5 className="card-title">{data.title}</h5>
-                                    <p className="card-text">{data.description}</p>
+                        <div className="card-body">
+                            <div key={data.id}>
+                                <img src={data.imagePath} class="card-img-top" />
+                                <div className="card-texts">
+                                    <h5 className="card-project-title">{data.title}</h5>
+                                    <p className="card-project-text">{data.description}</p>
                                     <a href={data.githubLink} className="link-dark icon-link">
                                         <Icon name="github" />
                                     </a>
@@ -32,7 +27,7 @@ function ProjectInfo({data}) {
                                     )}
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             ))}

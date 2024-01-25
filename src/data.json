@@ -52,22 +52,21 @@
             "description": "This project was built with React.JS and Bootstrap to show my portfolio",
             "link": "https://choijung.netlify.app/",
             "githubLink": "https://github.com/choijung121/portfolio", 
-            "imagePath": "../../images/portfolio.png"
+            "imagePath": "/portfolio.png"
         }, 
         {
             "id": 2,
             "title": "Stopwatch App",
             "description": "Used React to create stopwatch",
             "githubLink": "https://github.com/choijung121/stopwatch", 
-            "imagePath": "../../images/project-expenseapp.png"
-            
+            "imagePath": "/stopwatch2.png"
         },
         {
             "id": 3,
             "title": "Expense App",
             "description": "This is an expense app to keep track of your spendings on money",
             "githubLink": "https://github.com/choijung121/Expense-App/tree/main/learn-react", 
-            "imagePath": "../../images/weather.png"
+            "imagePath": "/project-expenseapp.png"
         }, 
         {
             "id": 4,
@@ -75,7 +74,7 @@
             "description": "Simple weather app to get information on temperature and other informations",
             "link": "https://reliable-panda-6559d7.netlify.app/",
             "githubLink": "https://github.com/choijung121/weatherapp", 
-            "imagePath": "../../images/stopwatch.png"
+            "imagePath": "/weather.png"
         }
 
     ]
