@@ -40,9 +40,8 @@ function Experience(){
                 </Timeline>
             </div>
             <br></br>
-            <p className='experience-intro'>View my resume.</p>
             <div className="resume">
-                <a href={myResume} class="btn btn-outline-primary" role="button" data-bs-toggle="button" aria-pressed="true">Resume</a>
+                <a href={myResume} class="btn btn-outline-primary" role="button" data-bs-toggle="button" aria-pressed="true">View my Resume</a>
             </div>
         </div>
     );

@@ -19,13 +19,10 @@ function Navbar(){
                         <li class="nav-item">
                             <a class="nav-link active" href="#project">Project</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#contact">Contact</a>
-                        </li>
                     </ul>
                 </div>
-                {/* <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" className="icon-nav">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
+                <div className="collapse navbar-collapse justify-content-end navbar-margin" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end icon-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="https://github.com/choijung121?tab=repositories">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -41,7 +38,7 @@ function Navbar(){
                             </a>
                         </li>
                     </ul>
-                </div> */}
+                </div>
             </div>
         </nav>
     );

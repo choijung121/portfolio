@@ -18,7 +18,7 @@
             "companyLink": "https://www.sportsengine.com",
             "jobTitle": "QA Engineer",
             "jobDescription": "JavaScript, TypeScript, Cypress, Jira",
-            "skills": "JavaScript, TypeScript, Cypress, Jira"
+            "skills": "JavaScript, TypeScript, Cypress, Jira, Postman"
         },
         {
             "id": 2,    
@@ -48,34 +48,38 @@
     "projectData": [
         {
             "id": 1,
-            "title": "Portfolio",
-            "description": "This project was built with React.JS and Bootstrap to show my portfolio",
+            "title": "My Portfolio",
+            "description": "Created this portfolio website to show case my resume and projects. It's nothing much yet, but continuing to improve this page.",
+            "tools": "React.js, JavaScript, Bootstrap", 
             "link": "https://choijung.netlify.app/",
             "githubLink": "https://github.com/choijung121/portfolio", 
             "imagePath": "/portfolio.png"
         }, 
         {
             "id": 2,
-            "title": "Stopwatch App",
-            "description": "Used React to create stopwatch",
+            "title": "Stopwatch",
+            "description": "Fun small project I saw on Instagram reels and decided to try it out. Created a super simple stopwatch app that measures time and also resets.",
+            "tools": "React.js, JavaScript", 
             "githubLink": "https://github.com/choijung121/stopwatch", 
             "imagePath": "/stopwatch2.png"
         },
         {
             "id": 3,
-            "title": "Expense App",
-            "description": "This is an expense app to keep track of your spendings on money",
+            "title": "Expense Tracker",
+            "description": "Making an expense tracker app. Thought it was a good idea to make this to keep up with my finances.",
+            "tools": "React.js, JavaScript, Bootstrap", 
             "githubLink": "https://github.com/choijung121/Expense-App/tree/main/learn-react", 
-            "imagePath": "/project-expenseapp.png"
+            "imagePath": "/project-expenseapp.png", 
+            "inProgress": "In Progress"
         }, 
         {
             "id": 4,
             "title": "Weather App",
-            "description": "Simple weather app to get information on temperature and other informations",
+            "description": "One of my first projects to work on. It can get diverse information about the weather on the searched city all over the world.",
+            "tools": "React.js, JavaScript, OpenWeatherMap API", 
             "link": "https://reliable-panda-6559d7.netlify.app/",
             "githubLink": "https://github.com/choijung121/weatherapp", 
             "imagePath": "/weather.png"
         }
-
     ]
 }

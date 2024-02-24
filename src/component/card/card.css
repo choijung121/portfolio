@@ -47,16 +47,16 @@ a {
     transition: 250ms;
 }
 
-.card:hover {
-    transform: translateY(-4px);
+.card-body {
+    justify-content: space-between;
+}
+
+.cards:hover {
+    transform: translateY(-8px);
 }
 
 .progress-button {
     position: absolute;
-    top: 6%;
-    right: 49%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     background-color: green;
     color: white;
     font-size: 10px;
@@ -65,4 +65,27 @@ a {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+}
+
+.tool-list {
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;  
+    padding-left: 0;
+}
+
+.tools-tag {
+    display: inline;
+    list-style-type: none;
+    background-color: rgb(191, 238, 246);
+    border-radius: 15px;
+    border: none; 
+    padding: 6px 12px;
+    margin: 3px; 
+    text-align: center;
+}
+
+.website-link {
+    position: absolute; 
+    margin: 3px;
 }
