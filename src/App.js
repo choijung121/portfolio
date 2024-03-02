@@ -5,7 +5,7 @@ import Experience from './component/experience/experience';
 import Project from './component/projects/project';
 import Navbar from './navbar/navbar';
 import Footer from './component/footer/footer'
-import Contact from './component/contact/contact';
+// import Contact from './component/contact/contact';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {

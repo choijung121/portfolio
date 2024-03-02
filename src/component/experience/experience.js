@@ -32,9 +32,19 @@ function Experience(){
                                 {' - '}
                                 {data.jobTitle}
                             </h2>
-                            {data.skills && (
-                                <p className="jobDescription">Skills: {data.skills}</p>
+                            {data.jobDescription && (
+                                <p className="jobDescription">{data.jobDescription}</p>
                             )}
+                            {data.skills && (
+                                <p className="jobSkills">Skills: {data.skills}</p>
+                            )}
+                            {/* <div className="skills">
+                                <ul className="skill-list">
+                                    {data.skills.split(",").map((skill) => (
+                                        <li className='skills-tag'>{skill}</li>
+                                    ))}  
+                                </ul> 
+                            </div> */}
                         </Event>
                     ))}
                 </Timeline>
