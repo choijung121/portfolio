@@ -1,10 +1,10 @@
 .experience-title {
     display: flex;
-    align-items: left;
     justify-content: left;
     font-size: 2em; 
     margin-top: 15%;
     margin-left: 20%;
+    margin-bottom: 5%;
     padding-top: 10%;
 }
 
@@ -24,9 +24,4 @@
 
 .companyName, .linkStyle {
     font-size: 17px;
-}
-
-
-.jobSkills, .jobDescription {
-    margin-right: 30%;
 }

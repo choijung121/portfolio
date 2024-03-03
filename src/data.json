@@ -26,7 +26,7 @@
             "companyName": "Redlist",
             "companyLink": "https://www.getredlist.com/",
             "jobTitle": "Software QA Intern",
-            "jobDescription": "As Android team's QA engineer, performed manual testing and developed automation. Using JavaScript, WebdriverIO, Appium, and Cucumber, we were able to cut down end to end testing time drastically.",
+            "jobDescription": "As Android team's QA engineer, performed manual testing and developed automation. Using JavaScript, WebdriverIO, Appium, and Cucumber, we were able to cut down end to end testing time.",
             "skills": "JavaScript, Appium, WebdriverIO, Cucumber, Microsoft Azure"
         },
         {
@@ -34,14 +34,16 @@
             "dates": "Sept 2019 – Dec 2019",
             "companyName": "NuSkin",
             "companyLink": "https://www.nuskin.com/en_US/home.html",
-            "jobTitle": "Customer Service Representative - Korean"
+            "jobTitle": "Customer Service Representative - Korean", 
+            "jobDescription": "Receive average of 20+ inbound calls daily from customers to place orders of all types, set up new accounts, answer questions, and resolve problems that they faced. Also, helped trouble shoot software and other technological problems the customer experienced."
         },
         {
             "id": 4,
             "dates": "Jul 2017 – Aug 2019",
             "companyName": "Missionary Training Center",
             "companyLink": "https://provo.mtc.byu.edu/",
-            "jobTitle": "Interpreter Trainer - Korean"
+            "jobTitle": "Interpreter Trainer - Korean", 
+            "jobDescription": "Interpreted Korean to English and vice versa for customers who needs interpretation services. Supervised and coordinated events and meetings for other interpreters and customers to be able to experience smooth experience. Interpreted average of 15+ hours per week during school year, and 30+ hours per week during school breaks."
         }
     ], 
 
